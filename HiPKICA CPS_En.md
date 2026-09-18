@@ -298,6 +298,66 @@
 - [Appendix 4: HiPKI CA Certificate List](#appendix-4-hipki-ca-certificate-list)
 - [Appendix 5: BRs-Section 1.2.1 Revisions](#appendix-5-brs-section-121-revisions)
 
+## CPS Version Control
+<table>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 21%" />
+<col style="width: 62%" />
+</colgroup>
+<thead>
+<tr>
+<th align="center">Version </th>
+<th style="text-align: center;">Date </th>
+<th style="text-align: center;">Revision Summary </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1.0 </td>
+<td nowrap>August 18, 2025 </td>
+<td><ol type="1">
+<li>First Released.</li>
+<li>To meet the basic requirements for re-inclusion of the TLS Root certificate, this document integrates the HiPKI CP and HiPKICA CPS.</li>
+<li>In accordance with the requirements of the Baseline Requirements (BR) and Browser Root Programs, the validation methods specified in BR sections 3.2.2.4.2, 3.2.2.4.4, 3.2.2.4.13, and 3.2.2.4.14 have been removed.</li>
+</ol></td>
+</tr>
+<tr>
+<td align="center">1.05 </td>
+<td nowrap>August 25, 2025 </td>
+<td><ol type="1">
+<li>To align with the production of our new CA key, Section 1.3.1 has been updated to include the CA names: CHT TrustRoot CA and CHT Trust TLS CA.</li>
+<li>Appendix 4 has been updated to include certificate information for CHT TrustRoot CA - G1 and CHT Trust TLS CA - G1. </li>
+</ol></td>
+</tr>
+<tr>
+<td align="center">1.1 </td>
+<td nowrap>March 06, 2026 </td>
+<td><ol type="1">
+<li>To comply with the requirements of the BR and Browser Root Program policies, amendments have been made to Sections 1.1, 3.2.7, 3.2.7.1, 3.2.7.2, 3.2.7.3, 3.2.7.4, 4.2.2, 5.7.1.1, 5.7.1.2, 5.7.2 and Appendix 2.</li>
+<li>Additional amendments have been made to Sections 1.4.2, 5.2.2, 5.3.5, 6.3.2.1, 7.1.5, Appendix 3-1, Appendix 3-2 and Appendix 4. </li>
+</ol></td>
+</tr>
+<tr>
+<td align="center">1.2 </td>
+<td nowrap>June 11, 2026 </td>
+<td><ol type="1">
+<li>In accordance with Root Program Policy requirements, fields and corresponding extension descriptions for CRLs issued by Root CAs and Subordinate CAs have been added, along with minor textual refinements. </li>
+<li>The scope of revisions covers Sections 3.1.5, 4.2.1, 6.3.2.1, 6.7, 7.1, 7.1.3, 7.1.4.3, 7.2, 7.2.2, 7.3.1, Appendix 3, Appendix 3-1, Appendix 3-2, and Appendix 5. </li>
+</ol></td>
+</tr>
+<tr>
+<td align="center">1.3 </td>
+<td nowrap>September 14, 2026 </td>
+<td><ol type="1">
+<li>Revised in accordance with the review comments received during the Apple Root Certificate Program inclusion review. The revised sections include 3.2.2, 3.2.5, 3.2.6, 4.3.1.1 (new), 4.3.1.2 (new), 4.3.1.3 (new), 4.9.1.1, 4.9.3, 4.9.7, 5.1.2, 6.5.1 (new), 6.5.3 (new), 6.7, and 9.6.3.</li>
+<li>Other updated sections include 1.1, 1.2, 4.2.1, 4.9.10, 6.1.1, 6.1.2, 6.1.6, 6.2.6, 7.2.2, Appendix 1, Appendix 2 and Appendix 5.</li>
+</ol></td>
+</tr>
+
+</tbody>
+</table>
+
 # 1. Introduction
 
 HiPKI is established in conjunction with the policies of Chunghwa Telecom Co., Ltd. (CHT) to promote electronic services and to create a sound e-commerce infrastructure environment. This Certificate Policy/Certification Practices Statement (CP/CPS) defines the policies, principles and practices related to HiPKI’s certification services. Certificates issued by HiPKI are applicable to various applications of e-commerce and e-government to provide more secure, reliable, and fast network services.
