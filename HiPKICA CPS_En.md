@@ -2,10 +2,10 @@
 
 
 - **Version: 1.3**
-
-
 - **Chunghwa Telecom Co., Ltd.**
 - **Publication date: September 14, 2026**
+
+<div style="page-break-before: always;"></div>
 
 ## Contents
 
